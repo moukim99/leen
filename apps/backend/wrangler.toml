@@ -2,16 +2,16 @@ name = "leen"
 main = "src/index.ts"
 compatibility_date = "2026-07-04"
 
-# 🗄️ ربط قاعدة البيانات الموزعة D1
+# 🗄️ ربط قاعدة البيانات الموزعة D1 (مفعّلة وشغالة تماماً)
 [[d1_databases]]
 binding = "DB"
 database_name = "leen-db"
 database_id = "0129bd69-dbbb-4171-9d7e-73b0f82a9c25"
 
-# 📦 ربط مستودع التخزين R2
-[[r2_buckets]]
-binding = "BUCKET"
-bucket_name = "leen-storage"
+# 📦 تم تعطيل مستودع R2 مؤقتاً لتخطي التفعيل
+# [[r2_buckets]]
+# binding = "BUCKET"
+# bucket_name = "leen-storage"
 
 # 🧠 المتغيرات العامة للبيئة
 [vars]
