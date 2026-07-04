@@ -1,0 +1,13 @@
+# Libraries & Dependencies
+node_modules/
+dist/
+.env
+.env.local
+
+# Cloudflare & Wrangler files
+.wrangler/
+.dev.vars
+
+# IDE & OS files
+.DS_Store
+.idx/
